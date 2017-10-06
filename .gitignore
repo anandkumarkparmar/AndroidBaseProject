@@ -1,0 +1,17 @@
+# Intellij files
+*.iml
+.idea
+
+# Gradle files
+.gradle
+build
+
+# Local properties files
+local.properties
+
+# OS specific files
+.DS_Store
+
+# Other files
+/captures
+.externalNativeBuild
