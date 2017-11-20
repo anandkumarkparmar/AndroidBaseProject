@@ -26,7 +26,7 @@ public class SharedPreferencesUtils {
             sharedPreferences = SlinkManager.getSlink(context, context.getResources().getString(R.string.app_name));
 
         }
-        
+
         return sharedPreferences;
     }
 
