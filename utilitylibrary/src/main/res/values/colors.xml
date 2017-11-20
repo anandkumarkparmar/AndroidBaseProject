@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- app colors -->
+    <color name="color_primary">#0288D1</color>
+    <color name="color_primary_light">#4FC3F7</color>
+    <color name="color_primary_dark">#01579B</color>
+
+    <color name="color_accent">#303F9F</color>
+    <color name="color_accent_light">#7986CB</color>
+    <color name="color_accent_dark">#1A237E</color>
+
+    <color name="color_divider">#BDBDBD</color>
+    <color name="color_backround">#E1F5FE</color>
+
+    <!-- text colors -->
+    <color name="color_text_primary">#212121</color>
+    <color name="color_text_secondary">#757575</color>
+    <color name="color_text_primary_for_dark_background">#FAFAFA</color>
+    <color name="color_text_secondary_for_dark_background">#E0E0E0</color>
+
+    <!-- status colors -->
+    <color name="color_danger_red">#E53935</color>
+    <color name="color_success_green">#4CAF50</color>
+    <color name="color_warn_amber">#FFC107</color>
+
+    <!-- custom colors -->
+    <color name="toast_background">#020202</color>
+    <color name="toast_text_color">#F2F2F2</color>
+
+
+</resources>
