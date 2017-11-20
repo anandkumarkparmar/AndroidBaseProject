@@ -17,10 +17,4 @@ import dagger.Provides;
 
 @Module
 public class UtilityModule {
-
-    @Provides
-    @Singleton
-    public SharedPreferences provideSharedPreferences(Context context){
-        return SlinkManager.getSlink(context, context.getResources().getString(R.string.app_name));
-    }
 }
