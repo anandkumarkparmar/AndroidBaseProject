@@ -39,23 +39,6 @@ dependencies {
 
 
 
-    /**
-     * Firebase Dependencies
-     */
-
-    // Authentication
-    // compile 'com.google.firebase:firebase-auth:11.4.2'
-
-    // Crash Reporting
-    // compile 'com.google.firebase:firebase-crash:11.4.2'
-
-    // Analytics
-    // compile 'com.google.firebase:firebase-core:11.4.2'
-
-    // Cloud Messaging
-    // compile 'com.google.firebase:firebase-messaging:11.4.2'
-
-
 
 
 

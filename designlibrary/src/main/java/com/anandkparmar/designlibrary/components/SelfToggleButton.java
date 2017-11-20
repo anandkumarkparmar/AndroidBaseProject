@@ -20,7 +20,7 @@ public class SelfToggleButton extends AppCompatButton {
     private Context context;
     boolean isSelected = false;
 
-    private boolean isTogglable;
+    private boolean isToggleable;
     private boolean defaultSelected;
     @ColorInt
     private int deselectedTextColor;
@@ -50,7 +50,7 @@ public class SelfToggleButton extends AppCompatButton {
         this.context = context;
         TypedArray attrsArray = context.obtainStyledAttributes(attrs, R.styleable.SelfToggleButton);
 
-        isTogglable = attrsArray.getBoolean(R.styleable.SelfToggleButton_is_togglable, true);
+        isToggleable = attrsArray.getBoolean(R.styleable.SelfToggleButton_is_togglable, true);
         defaultSelected = attrsArray.getBoolean(R.styleable.SelfToggleButton_default_selected, false);
 
         deselectedTextColor = attrsArray.getColor(R.styleable.SelfToggleButton_deselected_text_color, context.getResources().getColor(R.color.color_accent));
@@ -68,7 +68,7 @@ public class SelfToggleButton extends AppCompatButton {
     @Override
     public void setOnClickListener(@Nullable OnClickListener l) {
         super.setOnClickListener(l);
-        if(isTogglable) {
+        if(isToggleable) {
             if (!isSelected) {
                 isSelected = true;
                 setSelectedView();
